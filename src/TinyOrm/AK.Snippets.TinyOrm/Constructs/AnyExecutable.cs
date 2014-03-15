@@ -30,7 +30,7 @@ using System.Linq.Expressions;
 namespace AK.Snippets.TinyOrm.Constructs
 {
     /// <summary>
-    /// 
+    /// Generates and executes SQL corresponding to Any calls.
     /// </summary>
     /// <author>Aashish Koirala</author>
     internal class AnyExecutable<TProjected, TMapped> : ExecutableBase<TProjected, TMapped>

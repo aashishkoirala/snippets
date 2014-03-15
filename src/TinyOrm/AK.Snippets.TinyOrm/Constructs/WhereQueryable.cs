@@ -33,7 +33,7 @@ using System.Text;
 namespace AK.Snippets.TinyOrm.Constructs
 {
     /// <summary>
-    /// 
+    /// Generates SQL corresponding to Where calls.
     /// </summary>
     /// <author>Aashish Koirala</author>
     internal class WhereQueryable<TProjected, TMapped> : SqlQueryable<TProjected, TMapped>

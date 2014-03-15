@@ -29,7 +29,7 @@ using System.Linq.Expressions;
 namespace AK.Snippets.TinyOrm.Constructs
 {
     /// <summary>
-    /// 
+    /// Represents a table, i.e. the leaf level of a query model.
     /// </summary>
     /// <author>Aashish Koirala</author>
     internal class TableQueryable<TMapped> : SqlQueryable<TMapped, TMapped>

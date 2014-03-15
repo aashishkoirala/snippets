@@ -31,7 +31,7 @@ using System.Linq.Expressions;
 namespace AK.Snippets.TinyOrm.Constructs
 {
     /// <summary>
-    /// 
+    /// Generates SQL corresponding to Select calls.
     /// </summary>
     /// <author>Aashish Koirala</author>
     internal class SelectQueryable<TProjectedIn, TProjectedOut, TMapped> : SqlQueryable<TProjectedOut, TMapped>

@@ -30,7 +30,7 @@ using System.Linq.Expressions;
 namespace AK.Snippets.TinyOrm.Constructs
 {
     /// <summary>
-    /// 
+    /// Generates SQL corresponding to OrderBy, OrderByDescending, ThenBy, ThenByDescending calls.
     /// </summary>
     /// <author>Aashish Koirala</author>
     internal class OrderByQueryable<TProjected, TOrderByMember, TMapped> : SqlQueryable<TProjected, TMapped>

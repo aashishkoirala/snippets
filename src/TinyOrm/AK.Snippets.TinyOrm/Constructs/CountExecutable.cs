@@ -30,7 +30,7 @@ using System.Linq.Expressions;
 namespace AK.Snippets.TinyOrm.Constructs
 {
     /// <summary>
-    /// 
+    /// Generates and executes SQL corresponding to Count calls.
     /// </summary>
     /// <author>Aashish Koirala</author>
     internal class CountExecutable<TProjected, TMapped> : ExecutableBase<TProjected, TMapped>
